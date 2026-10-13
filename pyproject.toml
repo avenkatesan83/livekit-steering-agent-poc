@@ -1,0 +1,13 @@
+[project]
+name = "dental-appointment-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13,<3.15"
+dependencies = [
+    "livekit-agents>=1.6.8",
+    "livekit-plugins-ai-coustics>=0.3.0",
+    "livekit-plugins-openai>=1.6.1",
+    "httpx>=0.28.1",
+    "python-dotenv>=1.2.2",
+]

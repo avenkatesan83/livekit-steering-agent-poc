@@ -1,0 +1,11 @@
+[
+  "tests/test_a2a_client.py::CallerResponseTextTests::test_extracts_dialogflow_response_message",
+  "tests/test_a2a_client.py::CallerResponseTextTests::test_returns_none_when_no_response_message_exists",
+  "tests/test_a2a_client.py::SkillResultTests::test_extracts_dfcx_session_and_intent",
+  "tests/test_a2a_client.py::SkillResultTests::test_returns_empty_dict_without_artifacts",
+  "tests/test_a2a_client.py::StatusMessageTextTests::test_extracts_failure_detail",
+  "tests/test_a2a_client.py::StatusMessageTextTests::test_returns_none_without_status_message",
+  "tests/test_finish_queue_agent.py::QueueTransferDetectionTests::test_detects_dialogflow_transfer_reply",
+  "tests/test_finish_queue_agent.py::QueueTransferDetectionTests::test_ignores_empty_reply",
+  "tests/test_finish_queue_agent.py::QueueTransferDetectionTests::test_ignores_normal_reply"
+]
